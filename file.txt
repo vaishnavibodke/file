@@ -1,0 +1,17 @@
+public class DivEx {
+	
+
+	public static void main(String[] args) {
+		Addition a=(c,d)->
+		{
+			System.out.println(c+d);
+		};
+		a.add(12, 2);
+		
+		Division d=(p,q)->
+		{
+			System.out.println(p/q);
+		};
+		d.div(25,5);
+
+	}
